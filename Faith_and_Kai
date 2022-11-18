@@ -1,0 +1,9 @@
+CREATE TABLE faith_and_kai (id INTEGER, name TEXT, aisle INTEGER, quantity INTEGER, dollars INTEGER);
+INSERT INTO faith_and_kai VALUES(1, "bracelets", 3, 24, 9.99
+);
+INSERT INTO faith_and_kai VALUES (2, "shirts", 6, 18, 14.99);
+INSERT INTO faith_and_kai VALUES (3, "pants", 2, 12, 10.99);
+INSERT INTO faith_and_kai VALUES (4, "headbands", 8, 27, 5.99);
+
+SELECT * FROM faith_and_kai ORDER by dollars;
+SELECT SUM(quantity) from faith_and_kai
